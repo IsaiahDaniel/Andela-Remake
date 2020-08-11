@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  background: #ccc;
+  color: rgb(255, 175, 48);
+}
+
+.btn-primary {
+  background-color: rgba(255, 175, 48);
+  border: 1px solid rgba(255, 175, 48);
+}
+
+.dark-text {
+  color: #222;
+}
+
+.light-text {
+  color: #fff;
+}
+
+.text-primary {
+  color: rgb(255, 175, 48);
+}
+
+.text-secondary {
+  color: #0d219f;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.mt-1 {
+  margin-top: 1.5rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 3rem;
+}
+
+.mt-5 {
+  margin-top: 4rem;
+}
+
+.lg-heading {
+  font-size: 42px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  background: url("../images/World_map.png") center center/cover no-repeat;
+  background-color: rgb(25, 55, 193);
+  height: 90vh;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+nav img {
+  width: 120px;
+}
+
+nav ul li {
+  padding: 0 20px;
+}
+
+.main-nav {
+  margin-left: -400px;
+}
+
+.main-nav,
+.right-menu {
+  display: flex;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.header-content h1 span {
+  color: rgb(255, 175, 48);
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companies img {
+  height: 35px;
+  margin-right: 30px;
+}
+
+#banner {
+  background-color: rgba(255, 175, 48);
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#remote-teams .container {
+  display: flex;
+}
+
+#remote-teams h1 {
+  font-size: 96px;
+}
+
+#remote-teams p {
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+#remote-teams-info .container {
+  display: flex;
+}
+
+.remote-teams-info-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.remote-teams-info-inner div {
+  height: auto;
+}
+
+.remote-teams-info-img img {
+  width: 400px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
+#img-2 {
+  margin-left: 200px;
+}
+
+#img-3 {
+  margin-top: -80px;
+}
+
+.base-font {
+  font-size: 48px;
+}
+
+.teal {
+  color: #49aaaf;
+}
+
+.pink {
+  color: #df1995;
+}
+
+.green {
+  color: #98be24;
+}
+
+.yellow {
+  color: #fbae30;
+}
+
+#trading-patner {
+  margin-top: 100px;
+}
+
+#trading-patner .container > h1 {
+  margin-bottom: 20px;
+}
+
+.patner-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+#how {
+  margin-top: 100px;
+  background-color: rgb(18, 34, 125);
+  height: 100%;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+#how h1 {
+  font-size: 96px;
+  flex: 1;
+}
+
+#how div {
+  flex: 1;
+}
+
+.row-1-text h3 {
+  font-size: 30px;
+}
+
+.row-1-text p {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+.row-2 {
+  display: flex;
+}
+
+.row-2 img {
+  width: 700px;
+}
+
+.row-3 {
+  display: flex;
+}
+
+.img-box img {
+  width: 55%;
+}
+
+#img-2 {
+  margin-top: -60px;
+}
+
+.row-3-text {
+  align-self: center;
+}
+
+.row-3-text h3 {
+  font-size: 30px;
+}
+
+.row-4 {
+  display: flex;
+}
+
+
+.row-4 .expertise .expertise-img{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.row-4 .expertise .expertise-img h5{
+  color: yellow;
+  text-align: center;  
+}
+
+.row-4 .expertise img {
+  width: 40px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+
+.row-4 .expertise .expertise-img > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-4-text #qoute , .row-4-text blockquote {
+  font-size: 30px;
+}
+
+.row-4-text {
+  display: flex;
+  margin-top: -150px;
+}
+
+.row-3-text #qoute i {
+  padding-left: 10px;
+}
+
+blockquote div {
+  display: flex;
+  
+}
+
+blockquote div img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+blockquote div p {
+  font-size: 16px;
+  flex: 1;
+}
+
+/* WHATS NEW */
+
+#whats-new h1 {
+  font-size: 96px;
+}
+
+#whats-new .container .cards{
+  display: flex;  
+  /* justify-content: space-between; */
+}
+
+.cards .card img {
+  width: 400px;
+  height: 250px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
+#whats-new .cards .card {
+  margin-right: 20px;
+} 
+
+#whats-new .whats-new-a {
+  text-align: center;
+  margin-left: 560px;
+}
+
+#whats-new .container a {
+  margin-right: 400px;
+}
+
+#showcase-2 {
+  height: 50vh;
+  background-color: #122EBB;
+  align-items: center;
+}
+
+
+/* #main-footer {
+
+} */
+
+.footer-top {
+  background-color: rgba(4, 9, 110, 0.95);
+}
+
+.footer-link {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 0 40px 0;
+}
+
+.footer-link > ul h3 {
+  border-bottom: 1px solid #ccc;
+  width: 80%;
+}
+
+.footer-link #double #double-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: flex-start;
+}
+
+.footer-link ul h3  {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(52,82,225,0.65);
+  background-color: rgba(4, 9, 110, 0.95);
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-bottom img {
+  width: 120px; 
+}
